@@ -1,8 +1,8 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import Navbar from "./components/navbar/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const josefin = Josefin_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Hekto",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={josefin.className}>
         <Navbar />
         {children}
       </body>

@@ -29,7 +29,7 @@ const UpperNavbar = () => {
                   fill="white"
                 />
               </svg>
-              <p>{"mhhasanul@gmail.com"}</p>
+              <p className="text-darkblue">{"mhhasanul@gmail.com"}</p>
             </div>
             <div className="flex justify-start items-center gap-2.5 h-full">
               <svg
@@ -48,7 +48,7 @@ const UpperNavbar = () => {
                   fill="white"
                 />
               </svg>
-              <p>{"(12345)67890"}</p>
+              <p className="text-darkblue">{"(12345)67890"}</p>
             </div>
           </div>
           <div className="flex justify-between items-center gap-4 h-full">
@@ -63,7 +63,7 @@ const UpperNavbar = () => {
                 justify-center
               "
             >
-              <p className="text-zinc-100 text-base">Login</p>
+              <p className="text-zinc-100 text-base text-darkblue">Login</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -90,7 +90,7 @@ const UpperNavbar = () => {
                 justify-center
               "
             >
-              <p className="text-zinc-100 text-base">Wishlist</p>
+              <p className="text-zinc-100 text-base text-darkblue">Wishlist</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
